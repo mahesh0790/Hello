@@ -3,10 +3,12 @@
 echo $1
 
 
-if [ $1 = 10 ]
+if [ $1 = QA ]
 then
-echo "this is the value"
-elif [ $1 = 12 ]
+echo "scp username1@172.17.0.2"
+elif [ $1 = UAT ]
 then
-echo "this is not a right value"
+echo "scp username3@172.17.0.4"
+else
+echo "scp "
 fi
