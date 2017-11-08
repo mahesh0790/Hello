@@ -3,7 +3,7 @@
 echo -n "enter the number:"
 read i
 
-if [ $i -eq "10" ]
+if [ $i -ne 10 ]
 then
 echo "i is equal to 10"
 else

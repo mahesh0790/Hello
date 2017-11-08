@@ -1,13 +1,11 @@
 
 
-echo -n "enter the name of the team:"
+echo $1
 
-read ss
-
-if [ $ss = QA ]
+if [ $1 = QA ]
 then
 echo "scp username1@172.17.0.2"
-elif [ $ss = UAT ]
+elif [ $1 = UAT ]
 then
 echo "scp username3@172.17.0.4"
 else
